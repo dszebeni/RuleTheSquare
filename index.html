@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RuleTheSquare</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+
+<!--Includes-->
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="jquery.touchSwipe.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="square.css">
+    <script type="text/javascript" src="magic.js"></script>
+    <script type="text/javascript" src="jQueryRotate.js"></script>
+<!--Google Analytics-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-67199582-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    
+<!--Facebook Button-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.4";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+
+<!-- <div id="backgroundswich">
+    <h2><b>Background Animation</b></h2> -->
+
+</div>
+
+
+
+
+
+<div id="site">
+      <div id="start"><b>Press SPACE to start!</b></div>
+      <div id="square"></div>
+      <div id="gate"></div>
+      <div id="gateleft"></div>
+      <div id="gateright"></div>
+      <div id="gatebottom"></div>
+      <div id="circle"></div>
+      <div id="gameoverwrite"><h1>GameOver</h1></div>
+      <div id="gamename"><h1>RuleTheSquare</h1></div>
+      <div id="todo">HOWTO: Press the left or right arrow to rotate the square and catch as much as ball you can!</div>
+      <div class="fb-like" id="like" data-href="https://www.facebook.com/rulethesquare" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+      <div id="details">
+      <b><h1>Score:<div id="result">0</div></h1></b>
+  </div>
+
+  <div id="details2"></div>
+</div>
+
+</body>
+</html>
